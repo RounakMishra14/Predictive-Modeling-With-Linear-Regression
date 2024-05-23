@@ -1,1 +1,8 @@
 # Predictive-Modeling-With-Linear-Regression
+This project involves the creation of a predictive model to estimate the selling price of cars using linear regression. The dataset used is sourced from a renowned car selling platform, available at [Kaggle](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho).
+
+To begin with, comprehensive exploratory data analysis (EDA) was conducted to gain insights into the dataset, including analyzing feature distributions and outliers. Correlation analysis was performed using a correlation matrix to identify significant relationships between variables, aiding in the selection of key features.
+
+Visualization techniques such as bar plots, histograms, and line plots were employed to further understand data distributions and trends, assisting in the feature selection process. For data preprocessing, label encoding was used to convert categorical columns into numerical format, ensuring compatibility with the linear regression model. To mitigate potential biases, selected numerical columns were standardized (mean = 0, standard deviation = 1).
+
+The data was then split into training and testing sets with an 80:20 ratio. A linear regression model was developed to predict car prices, leveraging the preprocessed data. The model's performance was evaluated using metrics such as Mean Absolute Error (MAE) of 0.38, Mean Squared Error (MSE) of 0.55, and Root Mean Squared Error (RMSE) of 0.74. The preprocessing steps, including label encoding, standardization, and careful feature selection, were crucial in achieving this level of accuracy with the linear regression model.
